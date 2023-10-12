@@ -1,6 +1,6 @@
 body {
-    background: #1d2229;
-    background-image: url("../img/fonk.jpg");
+    background: #0c0d0f;
+    background-image: url("../img/img_2.png");
     background-size: cover;
 }
 
@@ -12,11 +12,90 @@ h1 {
 button {
     margin: 10px;
 }
-.div1 {
-    text-align: center;
-    margin-top: 130px;
+.fas {
+    font-size: 80px;
 }
-.div2 {
-    text-align: center;
-    margin-top: 90px;
+
+.destroy-btn {
+    width: 190px;
+    height: 140px;
+    margin-top: 40px;
+    margin-left: 770px;
+    transition: transform 0.3s;
+}
+.destroy-btn:hover {
+    transform: scale(1.1);
+}
+.destroy-btn span {
+    font-size: 22px;
+}
+
+.crush-btn {
+    width: 190px;
+    height: 140px;
+    margin-top: 40px;
+    margin-left: 50px;
+    transition: transform 0.3s;
+}
+.crush-btn:hover {
+    transform: scale(1.1);
+}
+.crush-btn span {
+    font-size: 22px;
+}
+
+.exterminate-btn {
+    width: 190px;
+    height: 140px;
+    margin-left: 770px;
+    margin-top: 60px;
+    transition: transform 0.3s;
+}
+
+.exterminate-btn:hover {
+    transform: scale(1.1);
+}
+
+.exterminate-btn span {
+    font-size: 22px;
+}
+
+.overthrow-btn {
+    width: 190px;
+    height: 140px;
+    margin-top: 60px;
+    margin-left: 50px;
+    transition: transform 0.3s;
+}
+.overthrow-btn:hover {
+    transform: scale(1.1);
+}
+
+.overthrow-btn span {
+    font-size: 22px;
+}
+
+.enslave-btn {
+    width: 190px;
+    height: 140px;
+    margin-left: 890px;
+    margin-top: 70px;
+    transition: transform 0.3s;
+}
+
+.enslave-btn:hover {
+    transform: scale(1.1);
+}
+
+.enslave-btn span {
+    font-size: 22px;
+}
+
+.button-group {
+    display: flex;
+}
+
+.destroy-btn,
+.crush-btn {
+    flex: 1;
 }

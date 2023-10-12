@@ -12,22 +12,31 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
 </head>
 <body>
-    <h1>Нажми на меня!</h1>
-    <div class="div1">
-        <a href="{% url 'destroy' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Уничтожить </button></a>
-        <a href="{% url 'crush' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Сокрушить </button></a>
-        <a href="{% url 'exterminate' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Истребить </button></a>
-        <a href="{% url 'overthrow' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Низвергнуть </button></a>
-        <a href="{% url 'enslave' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Поработить </button></a>
-    </div>
-    <div class="div2">
-        <a href="{% url 'incinerate' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Испепелить </button></a>
-        <a href="{% url 'erase' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Стереть </button></a>
-        <a href="{% url 'ruin' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Разрушить </button></a>
-        <a href="{% url 'broak' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Изничтожить </button></a>
-        <a href="{% url 'suppress' %}"><button class="btn btn-warning"><i class="fas fa-plus-circle"></i> Подавить </button></a>
-    </div>
-
-
+        <div class="class=button-group1">
+        <a href="{% url 'destroy' %}" class="btn btn-warning btn-icon destroy-btn">
+            <i class="fas fa-skull-crossbones"></i>
+            <span>Уничтожить</span>
+        </a>
+        <a href="{% url 'crush' %}" class="btn btn-warning btn-icon crush-btn">
+            <i class="fas fa-hand-rock"></i>
+            <span>Сокрушить</span>
+        </a>
+        </div>
+        <div class="class=button-group2">
+        <a href="{% url 'exterminate' %}" class="btn btn-warning btn-icon exterminate-btn">
+            <i class="fas fa-bomb"></i>
+            <span>Истребить</span>
+        </a>
+        <a href="{% url 'overthrow' %}" class="btn btn-warning btn-icon overthrow-btn">
+            <i class="fas fa-gavel"></i>
+            <span>Низвергнуть</span>
+        </a>
+        </div>
+        <div class="enslave">
+        <a href="{% url 'enslave' %}" class="btn btn-warning btn-icon enslave-btn">
+            <i class="fas fa-chain"></i>
+            <span>Поработить</span>
+        </a>
+        </div>
 </body>
 </html>
